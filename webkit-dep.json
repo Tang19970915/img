@@ -44,25 +44,50 @@
         {
             "name": "张三",
             "value": 1,
+            "category": 1
+        },
+        {
+            "name": "李四",
+            "value": 1,
             "category": 2
+        },
+        {
+            "name": "王五",
+            "value": 1,
+            "category": 3
+        },
+        {
+            "name": "张柳",
+            "value": 1,
+            "category": 4
+        },
+        {
+            "name": "赵六",
+            "value": 1,
+            "category": 0
+        },
+        {
+            "name": "小王",
+            "value": 1,
+            "category": 3
         }
     ],
     "links": [
         {
             "source": 1,
-            "target": 2 
+            "target": 3 
         },
         {
-            "source": 3,
-            "target": 2
+            "source": 0,
+            "target": 7
         },
-        // {
-        //     "source": 1,
-        //     "target": 3
-        // },
         {
-            "source":3,
+            "source": 2,
             "target": 4
+        },
+        {
+            "source":4,
+            "target": 7
         }
     ]
 }
